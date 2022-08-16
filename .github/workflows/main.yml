@@ -39,5 +39,5 @@ jobs:
       - name: Run kubectl commands 
         run: |
           kubectl get nodes -o wide
-          kubectl apply -f https://raw.githubusercontent.com/kubernetes/website/main/content/en/examples/application/deployment.yaml
+          kubectl apply -f nginx.yaml
           kubectl get all
